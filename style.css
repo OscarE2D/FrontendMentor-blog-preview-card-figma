@@ -1,0 +1,107 @@
+/* Importación*/
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
+  font-weight: 500 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+  font-weight: 500 800;
+  font-style: italic;
+}
+
+/*Reset Inicial*/
+
+/* 1. El modelo de caja moderno comienza en la raíz*/
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: clamp(1rem 1vh 1.25rem);
+}
+
+/* 2. Heredan el modelo de caja todos los elementos*/
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. Ajustes generales del body*/
+
+body {
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 4. Imágenes y medios fluidos*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*5.  Formularios sin estilos raros*/
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/* 6. Enlaces sin subrayado ni color azul*/
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 7. Listas sin bullets*/
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* 8. Tablas limpias*/
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 9. Declaración de variables*/
+
+:root {
+  --color-card-main: hsl(0, 0%, 100%);
+  --color-card-second: hsl(47, 88%, 63%);
+  --color-fontmain-gray950: hsl(0, 0%, 7%);
+  --color-fontsecond-gray500: hsl(0, 0%, 42%);
+  --card-space-50: 0.25rem;
+  --card-space-100: 0.5rem;
+  --card-space-150: 0.75rem;
+  --card-space-200: 1rem;
+  --card-space-300: 1.5rem;
+  --card-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
