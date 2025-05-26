@@ -129,3 +129,11 @@ main {
   min-width: 20.438rem;
   height: auto;
 }
+
+/*10. Estilos para la card-container*/
+.card-container {
+  display: grid;
+  place-items: center;
+  background-color: var(--color-card-second);
+  height: 100vh;
+}
