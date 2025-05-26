@@ -140,3 +140,40 @@ main {
   border-radius: 0.625rem;
   height: auto;
 }
+
+/*Estilos a la card-content*/
+.card-container-content {
+  background-color: red;
+  max-width: 100%;
+}
+
+.card-header-content {
+  margin-bottom: var(--card-space-150);
+}
+
+.card-header-content h3 {
+  color: var(--color-fontmain-gray950);
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  font-size: clamp(0.75rem, 0.71rem + 0.208vw, 0.875rem);
+  line-height: 150%;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: var(--card-space-150);
+  background-color: var(--color-card-second);
+  padding: 0.25rem 0.75rem;
+  width: clamp(4.375rem, 5.125rem, 5.75rem);
+  height: auto;
+  border-radius: 0.25rem;
+}
+
+.card-container-content p {
+  color: var(--color-fontmain-gray950);
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  font-size: clamp(0.75rem, 0.71rem + 0.208vw, 0.875rem);
+  line-height: 150%;
+  letter-spacing: 0;
+  text-align: left;
+  margin-bottom: var(--card-space-150);
+}
