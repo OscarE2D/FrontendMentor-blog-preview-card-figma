@@ -105,3 +105,11 @@ table {
   --card-space-300: 1.5rem;
   --card-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
+
+/*10. Estilos para la card-container*/
+.card-container {
+  display: grid;
+  place-items: center;
+  background-color: var(--color-card-second);
+  height: 100vh;
+}
