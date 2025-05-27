@@ -57,7 +57,7 @@ During the development of this project, I improved my knowledge in several key a
 
 **Third**, I significantly improved my understanding of code structuring related to `:hover` and `:focus` transitions. These are valuable tools for applying subtle or prominent animations to HTML and CSS elements. Their main advantage is that they are easy to use and greatly enhance the visual appeal of components.
 
-## **In conclusion**, I consider this stage to have been full of challenges and valuable learning. The use of `clamp()`, transitions, animations, and responsive design contribute to building higher-quality, more fluid, professional, and visually engaging projects. All of this helps provide users with a more personalized and unique experience.
+**In conclusion**, I consider this stage to have been full of challenges and valuable learning. The use of `clamp()`, transitions, animations, and responsive design contribute to building higher-quality, more fluid, professional, and visually engaging projects. All of this helps provide users with a more personalized and unique experience.
 
 ### Continued development
 
