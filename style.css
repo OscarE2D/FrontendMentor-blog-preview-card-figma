@@ -131,7 +131,8 @@ main {
   transition: box-shadow 0.6s ease;
 }
 
-.card-container:hover {
+.card-container:hover,
+.card-container:focus {
   box-shadow: 0.8rem 0.8rem 0 rgba(0, 0, 0, 1);
 }
 
@@ -194,7 +195,7 @@ main {
   transition: color 0.6s ease;
 }
 
-.card-container:hover .card-content-blog h1 {
+.card-container:hover .card-container:focus .card-content-blog h1 {
   color: var(--color-card-second);
 }
 
