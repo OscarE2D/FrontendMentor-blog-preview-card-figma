@@ -228,3 +228,13 @@ main {
   letter-spacing: 0;
   margin-left: var(--card-space-150);
 }
+
+.attribution {
+  font-size: 0.75;
+  text-align: center;
+  height: 2rem;
+  padding: var(--card-space-200);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
