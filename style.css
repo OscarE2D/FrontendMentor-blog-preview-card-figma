@@ -128,6 +128,11 @@ main {
   max-width: 24rem;
   min-width: 20.438rem;
   height: auto;
+  transition: box-shadow 0.6s ease;
+}
+
+.card-container:hover {
+  box-shadow: 0.8rem 0.8rem 0 rgba(0, 0, 0, 1);
 }
 
 /*Estilos de card-image y img*/
@@ -143,7 +148,6 @@ main {
 
 /*Estilos a la card-content*/
 .card-container-content {
-  background-color: red;
   max-width: 100%;
 }
 
@@ -187,6 +191,11 @@ main {
   letter-spacing: 0;
   text-align: left;
   margin-bottom: var(--card-space-150);
+  transition: color 0.6s ease;
+}
+
+.card-container:hover .card-content-blog h1 {
+  color: var(--color-card-second);
 }
 
 .card-content-blog p {
@@ -203,4 +212,19 @@ main {
 .card-footer-blog {
   display: flex;
   align-items: center;
+}
+
+.card-footer-blog img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.card-footer-blog figcaption {
+  color: var(--color-fontmain-gray950);
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  font-size: clamp(0.75rem, 0.71rem + 0.208vw, 0.875rem);
+  line-height: 150%;
+  letter-spacing: 0;
+  margin-left: var(--card-space-150);
 }
