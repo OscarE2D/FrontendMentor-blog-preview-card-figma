@@ -241,7 +241,7 @@ main {
 /*Estilos de los créditos*/
 
 .attribution {
-  font-size: 0.75;
+  font-size: 0.75rem;
   text-align: center;
   height: 2rem;
   padding: var(--card-space-200);
