@@ -136,7 +136,7 @@ main {
   box-shadow: 0.8rem 0.8rem 0 rgba(0, 0, 0, 1);
 }
 
-/*Estilos de card-image y img*/
+/* 12. Estilos de card-image y img*/
 .card-image {
   margin-bottom: var(--card-space-300);
 }
@@ -147,10 +147,12 @@ main {
   height: auto;
 }
 
-/*Estilos a la card-content*/
+/*13. Estilos a la card-content*/
 .card-container-content {
   max-width: 100%;
 }
+
+/*14. Estilos de la card-header-content*/
 
 .card-header-content {
   margin-bottom: var(--card-space-150);
@@ -172,6 +174,8 @@ main {
   border-radius: 0.25rem;
 }
 
+/*15. Estilos de la card-container-content*/
+
 .card-container-content p {
   color: var(--color-fontmain-gray950);
   font-family: "Figtree", sans-serif;
@@ -182,6 +186,8 @@ main {
   text-align: left;
   margin-bottom: var(--card-space-150);
 }
+
+/* 16. Estilos de la card-content-blog*/
 
 .card-content-blog h1 {
   color: var(--color-fontmain-gray950);
@@ -195,7 +201,7 @@ main {
   transition: color 0.6s ease;
 }
 
-.card-container:hover .card-container:focus .card-content-blog h1 {
+.card-container:hover .card-content-blog h1 {
   color: var(--color-card-second);
 }
 
@@ -209,6 +215,8 @@ main {
   text-align: left;
   margin-bottom: var(--card-space-300);
 }
+
+/*17. Estilos de la card-footer-blog*/
 
 .card-footer-blog {
   display: flex;
@@ -229,6 +237,8 @@ main {
   letter-spacing: 0;
   margin-left: var(--card-space-150);
 }
+
+/*Estilos de los créditos*/
 
 .attribution {
   font-size: 0.75;
