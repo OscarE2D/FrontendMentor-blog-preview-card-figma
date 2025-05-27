@@ -177,3 +177,30 @@ main {
   text-align: left;
   margin-bottom: var(--card-space-150);
 }
+
+.card-content-blog h1 {
+  color: var(--color-fontmain-gray950);
+  font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.25rem, 1.169rem + 0.42vw, 1.5rem);
+  line-height: 150%;
+  letter-spacing: 0;
+  text-align: left;
+  margin-bottom: var(--card-space-150);
+}
+
+.card-content-blog p {
+  color: var(--color-fontsecond-gray500);
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  font-size: clamp(0.75rem, 0.67rem + 0.42vw, 1rem);
+  line-height: 150%;
+  letter-spacing: 0;
+  text-align: left;
+  margin-bottom: var(--card-space-300);
+}
+
+.card-footer-blog {
+  display: flex;
+  align-items: center;
+}
